@@ -3,8 +3,8 @@ import React from "react";
 import { InfoBoxContainer } from "./infoBox.styles.jsx";
 
 const InfoBox = ({ title, content, priority, alignment }) => {
-  const titleRender = (function () {
-    return priority === "h1" ? (
+  const titleRender = (() =>
+    priority === "h1" ? (
       <h1>{title}</h1>
     ) : priority === "h2" ? (
       <h2>{title}</h2>
@@ -14,8 +14,7 @@ const InfoBox = ({ title, content, priority, alignment }) => {
       <h4>{title}</h4>
     ) : (
       <h1>{title}</h1>
-    );
-  })();
+    ))();
 
   return (
     <InfoBoxContainer alignment={alignment}>

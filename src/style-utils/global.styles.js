@@ -11,6 +11,7 @@ const GlobalStyles = createGlobalStyle`
 
 html{
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 body{
@@ -19,7 +20,8 @@ body{
     font-size: 1.8rem;
     width: 100vw;
     font-family: 'Karla', sans-serif;
-    background: ${({ theme: { colors } }) => colors.lightGrey};
+    background: ${({ theme: { colors } }) => colors.white};
+    color: ${({ theme: { colors } }) => colors.violetDarker};
 }
 
 #root {
@@ -43,6 +45,11 @@ ul, li {
 
 button {
     font-family: inherit;
+}
+
+h1, h2, h3, h4, h5 {    
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
 }
 `;
 

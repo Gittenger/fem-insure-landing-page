@@ -17,5 +17,6 @@ export const NavContainer = styled.nav`
     justify-content: space-between;
     padding: 2rem 0;
     width: 100%;
+    color: ${({ theme: { colors } }) => colors.greyViolet};
   }
 `;

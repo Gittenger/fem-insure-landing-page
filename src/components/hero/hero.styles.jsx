@@ -19,7 +19,6 @@ export const TextBoxContainer = styled.div`
   color: ${({ theme: { colors } }) => colors.lightGrey};
   h1 {
     width: 85%;
-    font-weight: 400;
     font-size: 3em;
     line-height: 0.9;
     margin-bottom: 2rem;

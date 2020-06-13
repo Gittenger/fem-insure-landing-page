@@ -5,6 +5,7 @@ const theme = {
     greyBlue: "#95a9c6",
     greyViolet: "#837d87",
     lightGrey: "#fafafa",
+    white: "#ffffff",
   },
   layout: {
     desktop: {

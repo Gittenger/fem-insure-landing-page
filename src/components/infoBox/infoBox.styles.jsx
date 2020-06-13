@@ -30,8 +30,4 @@ export const InfoBoxContainer = styled.div`
   justify-content: space-between;
   width: 100%;
   ${getAlignment}
-
-  & > *:first-child {
-    font-family: "DM Serif Display", serif;
-  }
 `;
