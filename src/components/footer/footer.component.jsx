@@ -7,7 +7,13 @@ import { ReactComponent as Facebook } from "../../assets/icon-facebook.svg";
 import { ReactComponent as Twitter } from "../../assets/icon-twitter.svg";
 import { ReactComponent as Pinterest } from "../../assets/icon-pinterest.svg";
 import { ReactComponent as Instagram } from "../../assets/icon-instagram.svg";
-import { FooterContainer, FooterTop, FooterBottom } from "./footer.styles.jsx";
+import BgPattern from "../../assets/bg-pattern-footer-desktop.svg";
+import {
+  FooterContainer,
+  FooterTop,
+  FooterBottom,
+  BackgroundImg,
+} from "./footer.styles.jsx";
 
 const Footer = () => (
   <FooterContainer>
@@ -103,6 +109,7 @@ const Footer = () => (
           </ul>
         </div>
       </FooterBottom>
+      <BackgroundImg imgSrc={BgPattern} />
     </Container>
   </FooterContainer>
 );
