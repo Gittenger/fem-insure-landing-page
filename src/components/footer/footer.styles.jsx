@@ -18,6 +18,18 @@ export const FooterTop = styled.div`
   & > ul {
     ${FlexCenter}
     justify-content: space-between;
+
+    & > *:not(:last-child) {
+      margin-right: 1rem;
+    }
+
+    & svg > path {
+      transition: fill 0.3s;
+    }
+
+    & a:hover svg > path {
+      fill: ${({ theme: { colors } }) => colors.violetDarker};
+    }
   }
 `;
 
@@ -30,10 +42,17 @@ export const FooterBottom = styled.div`
   h6 {
     font-size: 0.8em;
     margin-bottom: 3rem;
+    user-select: none;
     color: ${({ theme: { colors } }) => colors.greyViolet};
   }
 
   li {
     font-size: 0.8em;
+
+    a {
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 `;

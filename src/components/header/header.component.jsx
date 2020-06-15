@@ -1,13 +1,14 @@
 import React from "react";
 
 import Container from "../container/container.component";
+import Button from "../Button/Button.component";
 
 import Logo from "../../assets/logo.svg";
 import { HeaderContainer, NavContainer } from "./header.styles.jsx";
 
 const Header = () => (
-  <Container>
-    <HeaderContainer>
+  <HeaderContainer>
+    <Container>
       <div>
         <img src={Logo} alt="" />
       </div>
@@ -23,12 +24,12 @@ const Header = () => (
             <a href="#">Account</a>
           </li>
           <li>
-            <button>ViewPlans</button>
+            <Button content="view plans" type="dark" />
           </li>
         </ul>
       </NavContainer>
-    </HeaderContainer>
-  </Container>
+    </Container>
+  </HeaderContainer>
 );
 
 export default Header;
