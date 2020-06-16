@@ -1,6 +1,7 @@
 import React from "react";
 
 import Header from "./components/header/header.component";
+import HeaderMobile from "./components/headerMobile/headerMobile.component";
 import Hero from "./components/hero/hero.component";
 import FeaturesSection from "./components/featuresSection/featuresSection.component";
 import Cta from "./components/cta/cta.component";
@@ -13,10 +14,11 @@ function App() {
     <>
       <GlobalStyles />
       <Header />
-      <Hero />
+      <HeaderMobile />
+      {/* <Hero /> */}
       <FeaturesSection />
-      <Cta />
-      <Footer />
+      {/* <Cta />
+      <Footer /> */}
     </>
   );
 }

@@ -5,7 +5,7 @@ import InfoBox from "../infoBox/infoBox.component";
 import SnappyIcon from "../../assets/icon-snappy-process.svg";
 import AffordableIcon from "../../assets/icon-affordable-prices.svg";
 import PeopleIcon from "../../assets/icon-people-first.svg";
-import { FeatureBoxContainer } from "./featureBox.styles.jsx";
+import { FeatureBoxContainer, ImageBox } from "./featureBox.styles.jsx";
 
 const FeatureBox = ({ imgImport, ...infoBoxProps }) => {
   const imgSrc = (() =>
@@ -19,9 +19,9 @@ const FeatureBox = ({ imgImport, ...infoBoxProps }) => {
 
   return (
     <FeatureBoxContainer>
-      <div>
+      <ImageBox>
         <img src={imgSrc} alt="" />
-      </div>
+      </ImageBox>
       <InfoBox {...infoBoxProps} />
     </FeatureBoxContainer>
   );

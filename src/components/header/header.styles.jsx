@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-import { FlexCenter } from "../../style-utils/utils.styles";
+import { FlexCenter, device } from "../../style-utils/utils.styles";
+
+const { mobileS } = device;
 
 export const HeaderContainer = styled.header`
   ${FlexCenter}
@@ -12,6 +14,10 @@ export const HeaderContainer = styled.header`
   & > div:first-child {
     ${FlexCenter}
     justify-content: space-between;
+  }
+
+  @media ${mobileS} {
+    display: none;
   }
 `;
 
