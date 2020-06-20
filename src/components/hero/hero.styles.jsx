@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-import { FlexCenter } from "../../style-utils/utils.styles";
+import { FlexCenter, device } from "../../style-utils/utils.styles";
+
+const { mobileS } = device;
 
 export const HeroContainer = styled.div`
   ${FlexCenter}
@@ -11,9 +13,19 @@ export const HeroContainer = styled.div`
 
   & > div:first-child {
     height: 100%;
+    width: 100%;
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  @media ${mobileS} {
+    height: 124rem;
+    align-items: flex-start;
+    & > div:first-child {
+      grid-template-columns: 1fr;
+      grid-template-rows: 64rem 60rem;
+    }
   }
 `;
 
@@ -42,6 +54,10 @@ export const TextBoxContainer = styled.div`
   & > button {
     margin-top: 3rem;
   }
+
+  @media ${mobileS} {
+    grid-row: 2 / 3;
+  }
 `;
 
 export const ImageBox = styled.div`
@@ -55,6 +71,12 @@ export const ImageBox = styled.div`
   top: 9%;
   right: 0%;
   z-index: 100;
+
+  @media ${mobileS} {
+    grid-row: 1 / 2;
+    width: 100%;
+    top: 0%;
+  }
 `;
 
 export const BackgroundImgLeft = styled.div`
@@ -68,6 +90,10 @@ export const BackgroundImgLeft = styled.div`
   height: 65rem;
   width: 65rem;
   z-index: 500;
+
+  @media ${mobileS} {
+    display: none;
+  }
 `;
 
 export const BackgroundImgRight = styled.div`
@@ -81,4 +107,8 @@ export const BackgroundImgRight = styled.div`
   height: 60rem;
   width: 60rem;
   z-index: 500;
+
+  @media ${mobileS} {
+    display: none;
+  }
 `;

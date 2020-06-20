@@ -15,7 +15,7 @@ function App() {
       <GlobalStyles />
       <Header />
       <HeaderMobile />
-      {/* <Hero /> */}
+      <Hero />
       <FeaturesSection />
       {/* <Cta />
       <Footer /> */}
