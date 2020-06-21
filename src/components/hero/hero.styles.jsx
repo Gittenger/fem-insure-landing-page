@@ -13,18 +13,19 @@ export const HeroContainer = styled.div`
 
   & > div:first-child {
     height: 100%;
-    width: 100%;
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
   @media ${mobileS} {
-    height: 124rem;
+    height: 86rem;
     align-items: flex-start;
+
     & > div:first-child {
+      width: 100%;
       grid-template-columns: 1fr;
-      grid-template-rows: 64rem 60rem;
+      grid-template-rows: 45rem 38rem;
     }
   }
 `;
@@ -57,6 +58,25 @@ export const TextBoxContainer = styled.div`
 
   @media ${mobileS} {
     grid-row: 2 / 3;
+    text-align: center;
+
+    //BORDER
+    & > div:first-child {
+      display: none;
+    }
+
+    //INFO BOX
+    & > div:nth-child(2) {
+      h1 {
+        font-size: 1.8em;
+        transform: scale(1.3);
+      }
+      p {
+        padding: 0.7rem;
+      }
+      align-items: center;
+      text-align: center;
+    }
   }
 `;
 
@@ -74,7 +94,10 @@ export const ImageBox = styled.div`
 
   @media ${mobileS} {
     grid-row: 1 / 2;
+    background-size: 100%;
+    background-position: center top;
     width: 100%;
+    height: 100%;
     top: 0%;
   }
 `;
