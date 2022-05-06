@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/fem-insure-landing-page/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/fem-insure-landing-page/static/js/main.dbd7e44f.chunk.js",
+    "main.js.map": "/fem-insure-landing-page/static/js/main.dbd7e44f.chunk.js.map",
+    "runtime-main.js": "/fem-insure-landing-page/static/js/runtime-main.99770396.js",
+    "runtime-main.js.map": "/fem-insure-landing-page/static/js/runtime-main.99770396.js.map",
+    "static/js/2.9c077bb8.chunk.js": "/fem-insure-landing-page/static/js/2.9c077bb8.chunk.js",
+    "static/js/2.9c077bb8.chunk.js.map": "/fem-insure-landing-page/static/js/2.9c077bb8.chunk.js.map",
+    "index.html": "/fem-insure-landing-page/index.html",
+    "precache-manifest.44362236caab8e7e94b12c4dd7c94d16.js": "/fem-insure-landing-page/precache-manifest.44362236caab8e7e94b12c4dd7c94d16.js",
+    "service-worker.js": "/fem-insure-landing-page/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/fem-insure-landing-page/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.9c077bb8.chunk.js.LICENSE.txt": "/fem-insure-landing-page/static/js/2.9c077bb8.chunk.js.LICENSE.txt",
+    "static/media/bg-pattern-footer-desktop.svg": "/fem-insure-landing-page/static/media/bg-pattern-footer-desktop.1586c300.svg",
+    "static/media/bg-pattern-how-we-work-desktop.svg": "/fem-insure-landing-page/static/media/bg-pattern-how-we-work-desktop.4abb7464.svg",
+    "static/media/bg-pattern-intro-left-desktop.svg": "/fem-insure-landing-page/static/media/bg-pattern-intro-left-desktop.600d6444.svg",
+    "static/media/bg-pattern-intro-right-desktop.svg": "/fem-insure-landing-page/static/media/bg-pattern-intro-right-desktop.fc61cf1f.svg",
+    "static/media/icon-affordable-prices.svg": "/fem-insure-landing-page/static/media/icon-affordable-prices.b9dc0b5c.svg",
+    "static/media/icon-facebook.6fd0e324.svg": "/fem-insure-landing-page/static/media/icon-facebook.6fd0e324.svg",
+    "static/media/icon-instagram.48a204c8.svg": "/fem-insure-landing-page/static/media/icon-instagram.48a204c8.svg",
+    "static/media/icon-people-first.svg": "/fem-insure-landing-page/static/media/icon-people-first.b264095b.svg",
+    "static/media/icon-pinterest.275a65a2.svg": "/fem-insure-landing-page/static/media/icon-pinterest.275a65a2.svg",
+    "static/media/icon-snappy-process.svg": "/fem-insure-landing-page/static/media/icon-snappy-process.3cc5dc39.svg",
+    "static/media/icon-twitter.6eef62ff.svg": "/fem-insure-landing-page/static/media/icon-twitter.6eef62ff.svg",
+    "static/media/image-intro-desktop.jpg": "/fem-insure-landing-page/static/media/image-intro-desktop.8ac69ec7.jpg",
+    "static/media/image-intro-mobile.jpg": "/fem-insure-landing-page/static/media/image-intro-mobile.09a91c1a.jpg",
+    "static/media/logo.svg": "/fem-insure-landing-page/static/media/logo.1bc452ac.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99770396.js",
+    "static/js/2.9c077bb8.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.dbd7e44f.chunk.js"
+  ]
+}
